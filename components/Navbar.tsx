@@ -20,7 +20,7 @@ const Navbar = () => {
           />
 
           <p className="nav-logo">
-            Alert<span className='text-pink-900'>Panda</span>
+            Alert<span className='text-pink-900'>Panda🐼</span>
           </p>
         </Link>
 
