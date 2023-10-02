@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import SigninButton from './SigninButton'
 
 const navIcons = [
-  { src: '/assets/icons/search.svg', alt: 'search' },
   { src: '/assets/icons/black-heart.svg', alt: 'heart' },
   { src: '/assets/icons/user.svg', alt: 'user' },
 ]
@@ -10,7 +10,7 @@ const navIcons = [
 const Navbar = () => {
   return (
     <header className="w-full">
-      <nav className="nav">
+      <nav className="nav bg-gray-400">
         <Link href="/" className="flex items-center gap-1">
           <Image 
             src="/assets/icons/logo.svg"
@@ -35,6 +35,7 @@ const Navbar = () => {
               className="object-contain"
             />
           ))}
+          <SigninButton />
         </div>
       </nav>
     </header>

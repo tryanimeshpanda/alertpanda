@@ -9,7 +9,7 @@ const Home = async () => {
 
   return (
     <>
-      <section className="px-6 md:px-20 py-24">
+      <section className="px-6 md:px-20 py-24 bg-red-100">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center"> 
             <p className="small-text">
@@ -24,7 +24,7 @@ const Home = async () => {
 
             <h1 className="head-text">
               Unleash the Power of
-              <span className="text-pink-900"> AlertPanda</span>
+              <span className="text-pink-900"> AlertPanda !</span>
             </h1>
 
             <p className="mt-6">
